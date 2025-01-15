@@ -9,7 +9,45 @@
 </head>
 
 <body>
-  
+  <h1>Flower delivery form</h1>
+  <form action="" method="post">
+
+    <h2>Recipient Details</h2>
+      <div>
+        <label for="full-name">Full name</label>
+        <input type="text" id="full-name" placeholder="Petra Husarova">
+
+        <label for="phone">Telephone number</label>
+        <input type="tel" id="phone" placeholder="+420 950 222 012">
+
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="Mexico City, City, 555 00">
+      </div>
+
+    <h2>Sender Details</h2>
+      <div>
+        <label for="sender-full-name">Full name</label>
+        <input type="text" id="sender-full-name" placeholder="Adam Sender">
+      
+        <label for="email">Email</label>
+        <input type="tel" id="email" placeholder="adam.sender@gmail.com">
+      </div>
+
+    <h2>Order</h2>
+      <div>
+        <label for="bouquet-types">Bouquet Type</label>
+        <select name="bouquet-types" id="bouquet-types">
+          <option value="basic">Basic Bouquet - $24.99</option>
+          <option value="premium">Premium Bouquet - $44.99</option>
+          <option value="premium_chocolate">Premium Bouquet + Chocolate - $69.99</option>
+        </select>
+      
+        <label for="message">message</label>
+        <textarea name="message"id="message" rows="4" cols="50">
+        </textarea>  
+      </div>
+
+  </form>
 </body>
 
 </html>
